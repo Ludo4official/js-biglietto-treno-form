@@ -34,6 +34,15 @@ body {
 .my-btn {
     background-color: var(--primary-color);
     color: var(--secondary-color);
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+.my-btn:hover {
+    background-color: black;
+    color: var(--secondary-color);
 }
 
 .secondary-title {
@@ -59,3 +68,8 @@ body {
 .my-little-col {
     font-weight: bold;
 }
+
+#ticket {
+    display: none;
+}
+
