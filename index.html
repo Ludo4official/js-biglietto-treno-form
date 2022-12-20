@@ -5,11 +5,109 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>calcolo del prezzo del biglietto del treno</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
 
     </head>
     <body>
+        <h1 class="main-title mt-3">
+            calcola il prezzo del tuo biglietto
+        </h1>
+
+        <div class="card mt-5">
+            <div class="container">
+                <div class="row mt-3 text-style text-center">
+                    <div class="col">
+                        Nome Cognome
+                    </div>
+                    <div class="col">
+                        KM da percorrere
+                    </div>
+                    <div class="col">
+                        Fascia d'età
+                    </div>
+                </div>
+                <div class="row mt-5 text-center">
+                    <div class="col">
+                        <div class="input-group">
+                            <input type="text" aria-label="First name" class="form-control">
+                            <input type="text" aria-label="Last name" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                        </div>
+                          
+                    </div>
+                    <div class="col">
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="inputGroupSelect01">Opzioni</label>
+                            <select class="form-select" id="inputGroupSelect01">
+                              <option selected>Scegli..</option>
+                              <option value="1">Minorenne</option>
+                              <option value="2">Maggiorenne</option>
+                              <option value="3">Pensionato</option>
+                            </select>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-1 offset-5">
+                        <button type="button" class="btn btn-outline-dark my-btn">Genera</button>
+                    </div>
+                    <div class="col-1">
+                        <button type="button" class="btn btn-outline-dark my-btn">Annulla</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <h1 class="main-title mt-5">
+            il tuo biglietto
+        </h1>
+
+        <div class="card container mt-3 mb-5">
+            <h3 class="secondary-title mt-2">
+                dettaglio passeggeri
+            </h3>
+
+            <div class="my-cnt">
+
+                <div class="row mt-3">
+                    <div class="col-4 my-col">
+                        <div>nome passeggero</div>
+                        <div class="mt-5"></div>
+                    </div>
+                    <div class="col-2 my-little-col">
+                        <div>Offerta</div>
+                        <div class="mt-5"></div>
+                    </div>
+                    <div class="col-2 my-little-col">
+                        <div>Carrozza</div>
+                        <div class="mt-5"></div>
+                    </div>
+                    <div class="col-2 my-little-col">
+                        <div>Codice CP</div>
+                        <div class="mt-5"></div>
+                    </div>
+                    <div class="col-2 my-little-col">
+                        <div>Costo Biglietto</div>
+                        <div class="mt-5"></div>
+                    </div>
+                
+                </div>
+                
+            </div>
+        </div>
 
 
 
